@@ -16,24 +16,43 @@ const EducationSection = () => {
   const educationData = [
     {
       degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
+      school: "Sandhanpur Gano High School & College",
       mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
+      year: "2014-2019",
+      achievements: ["GPA: 5.00", "Group: Science"],
       skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Completed Secondary School Certificate (SSC) in the Science group, focusing on foundational knowledge in Mathematics, Physics, Chemistry, and Biology. Emphasized practical lab work, analytical thinking, and conceptual clarity. Actively participated in science fairs and academic activities, laying the groundwork for higher secondary studies.",
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      school: "Madhupur Shahid Smrity Higher Secondary Schol",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2019-2021",
+      achievements: ["GPA: 5.00", "Group: Science"],
+      skills: ["ICT","Mathematics", "Physics", "Chemistry", "Biology"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Completed Higher Secondary Certificate (HSC) in the Science stream, studying Higher Mathematics, Physics, Chemistry, Biology, and ICT. Coursework emphasised advanced theory, quantitative analysis, hands‑on laboratory experiments, and collaborative research projects, laying a solid foundation for future engineering and technology studies.",
     },
+  {
+    degree: "BSc in Computer Science & Engineering",
+    school: "Mawlana Bhashani Science and Technology University",
+    mascot: "🎓",
+    year: "2023 - Present",
+    achievements: ["Expected Graduation: 2026", "Department: CSE"],
+    skills: [
+      "Programming Fundamentals",
+      "Data Structures",
+      "Algorithms",
+      "Database Systems",
+      "Computer Networks",
+      "Software Engineering",
+      "Web Development",
+      "Machine Learning"
+    ],
+    description:
+      "Currently pursuing a Bachelor's degree in Computer Science & Engineering with a comprehensive curriculum covering both theoretical foundations and practical applications. Gaining expertise in software development, system design, and problem-solving through coursework, labs, and projects. Actively involved in coding competitions and tech communities to enhance practical skills.",
+  },
   ];
 
   const containerVariants = {

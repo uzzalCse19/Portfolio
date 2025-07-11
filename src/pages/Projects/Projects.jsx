@@ -5,45 +5,46 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Dining Management System",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
-    src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+      "A console‑based application written in C to handle cafeteria dining operations including menu planning, order processing, and billing.",
+    src: "https://i.imgur.com/i6iKvFQ.png",
+    link: "https://i.imgur.com/i6iKvFQ.png",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/uzzalCse19/University-Dining-Management-System",
+    liveLink: "https://github.com/uzzalCse19/University-Dining-Management-System",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "Event Management System",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+     "Full‑stack web application with a Python/Django REST Framework backend and a responsive HTML/CSS/JavaScript/Tailwind frontend. Supports CRUD events, optimized queries, user authentication, RBAC, RSVP, email activation, and role‑specific dashboards.",
+    src: "https://imgur.com/a/XUF0yZk",
+    // link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://i.imgur.com/01XEZhw.jpeg",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/uzzalCse19/Event_Management2",
+    liveLink: "https://event-management2-5.onrender.com/",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "🚀 Roktofy (Blood Bank)",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+      "🚀 A modern blood‑bank platform built with Django REST API and a React + Vite + Tailwind frontend. Features donor registration, blood request matching, JWT authentication, real‑time chat, and analytics dashboards. 💻✨",
+    src: "assets/images/roktofy.png",
+     link: "https://i.imgur.com/px1RTSC.jpeg",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
+    githubLink: "https://github.com/uzzalCse19/Roktofy",
+    liveLink: "https://roktofy-frontend.vercel.app//",
   },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
-  },
+  // {
+  //   title: "CodeKori 🔥",
+  //   description:
+  //     "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+  //   src: "house.jpg",
+  //   link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+  //   color: "#ed649e",
+  //   githubLink: "https://github.com/seraprogrammer/CodeKori",
+  //   liveLink: "https://codekori.js.org",
+  // },
 ];
 
 export default function Projects() {
