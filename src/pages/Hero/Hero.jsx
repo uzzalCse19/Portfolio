@@ -218,33 +218,71 @@ const profile = {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 animate__animated animate__fadeInUp animate__delay-2s">
-                <a
-                  href="https://github.com/uzzalCse19"
-                  className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
-                >
-                  <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
-                    <span className="relative flex items-center justify-center gap-2 text-white font-medium">
-                      <span>Learn More</span>
-                      <i className="fas fa-arrow-right transform transition-all duration-300 group-hover:translate-x-1"></i>
-                    </span>
-                  </span>
-                </a>
+<div className="flex flex-wrap justify-center sm:justify-start gap-3 sm:gap-4 animate__animated animate__fadeInUp animate__delay-2s text-sm sm:text-base">
 
-                <a
-                  href="/Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
-                >
-                  <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
-                    <span className="relative flex items-center justify-center gap-2 text-gray-300 font-medium group-hover:text-white">
-                      <span>Get Resume</span>
-                      <i className="fas fa-download transform transition-all duration-300 group-hover:rotate-12"></i>
-                    </span>
-                  </span>
-                </a>
-              </div>
+  {/* Learn More */}
+  <a
+    href="https://github.com/uzzalCse19"
+    className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
+  >
+    <span className="block w-full px-4 sm:px-5 py-2.5 sm:py-3
+ rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
+      <span className="relative flex items-center justify-center gap-2 text-white font-medium">
+        <span>Learn More</span>
+        <i className="fas fa-arrow-right transform transition-all duration-300 group-hover:translate-x-1"></i>
+      </span>
+    </span>
+  </a>
+
+  {/* Get Resume */}
+  <a
+    href="/Resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
+  >
+    <span className="block w-full px-4 sm:px-5 py-2.5 sm:py-3
+ rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
+      <span className="relative flex items-center justify-center gap-2 text-gray-300 font-medium group-hover:text-white">
+        <span>Get Resume</span>
+        <i className="fas fa-download transform transition-all duration-300 group-hover:rotate-12"></i>
+      </span>
+    </span>
+  </a>
+
+  {/* Best UI Button */}
+  <a
+    href="/BestUI.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-green-500 to-emerald-400 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#34D399]"
+  >
+    <span className="block w-full px-4 sm:px-5 py-2.5 sm:py-3
+ rounded-[11px] bg-gray-900 border border-green-400/40 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-green-600 group-hover:to-emerald-500">
+      <span className="relative flex items-center justify-center gap-2 text-green-300 font-medium group-hover:text-white">
+        <span>Best UI</span>
+        <i className="fas fa-star transform transition-all duration-300 group-hover:scale-125"></i>
+      </span>
+    </span>
+  </a>
+
+  {/* Worst UI Button */}
+  <a
+    href="/WorstUI.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-red-500 to-orange-500 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#F87171]"
+  >
+    <span className="block w-full px-4 sm:px-5 py-2.5 sm:py-3
+ rounded-[11px] bg-gray-900 border border-red-400/40 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-red-600 group-hover:to-orange-500">
+      <span className="relative flex items-center justify-center gap-2 text-red-300 font-medium group-hover:text-white">
+        <span>Worst UI</span>
+        <i className="fas fa-thumbs-down transform transition-all duration-300 group-hover:scale-125"></i>
+      </span>
+    </span>
+  </a>
+</div>
+
 
               <div className="hidden lg:block absolute left-[5.5rem] top-[2.3rem] animate-float-slow">
                 <div className="px-4 py-2 rounded-lg bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 text-purple-400">
