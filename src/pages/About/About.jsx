@@ -8,7 +8,7 @@ export default function About() {
           Full-Stack Developer & Problem Solver
           <span className="block mt-2 text-xl text-blue-400">Focused on Backend & Real-World Projects</span>
         </h2>
-
+ 
         <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
           <div className="relative mb-6 sm:mb-0">
             <div className="aspect-76/59 relative rounded-2xl p-px from-zinc-300 to-transparent bg-gradient-to-b">
